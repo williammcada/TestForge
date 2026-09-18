@@ -1,20 +1,16 @@
 # Migration Note — TestForge
 
-**Prepared:** 18 September 2026
+**Prepared:** 18 September 2026  
+**Status:** Historical migration note; source-status section superseded on 18 September 2026.
 
-This file records the initial move from chat-centered project history toward a repository-centered canonical record.
+The canonical source identity is now recorded in [`MIGRATION-BASELINE.md`](MIGRATION-BASELINE.md). Earlier statements that the source, filename, version or repository checkpoint was “TO ESTABLISH” are no longer current.
 
-## Source status at migration
+## Resolved source status
 
-TO ESTABLISH from the latest known-good local TestForge build before substantive revision.
+Canonical preserved source: `TestForge_v1.4.html`, Git blob `18fc211240c225fe506e9e35caccd6eaddde89de`, at source checkpoint `b8ccc620d9e57128d2f9fb2c3c81cc43b7d379d9`.
 
-## What to do next
+## Remaining work
 
-1. Identify the exact latest known-good source artifact.
-2. Place/confirm it in this repository.
-3. Update `PROJECT-BRIEF.md` with the exact version/commit.
-4. Copy any unique approved historical specification that is still needed into `docs/change-specs/`.
-5. Verify the repository source can be opened/built/deployed as appropriate.
-6. Only after unique project state is safely preserved should historical monster chats be treated as disposable.
+Use the committed v1.4 source as the canonical baseline; implement canonical-outcome refinement only against an approved change specification and full round-trip verification.
 
-This migration note is not a release specification and does not authorize new features.
+This note is not a release specification and does not authorize new features. Functional, device and deployment verification remain separate from source preservation.
